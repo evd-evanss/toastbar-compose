@@ -2,7 +2,7 @@
 
 A custom toastbar to display short messages to the user.
 
-https://user-images.githubusercontent.com/26419059/236640067-f86008aa-7016-4bb5-971a-bf4828ad1363.mp4
+https://user-images.githubusercontent.com/26419059/236640309-4efd2058-b328-413a-a44e-c0789178e1d2.mp4
 
 # Toast Levels
 
