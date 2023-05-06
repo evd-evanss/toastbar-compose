@@ -34,7 +34,7 @@ Step 2. Add the dependency in gradle (app).
 
 ``` kotlin
 dependencies {
-    implementation("com.sugarspoon.toastbar:$latest_version")
+    implementation("com.github.evd-evanss:toastbar-compose:$latest_version")
 }
 ```
 
