@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToastBar</string>
+    <string name="align_to_top">Align to top</string>
+    <string name="align_to_bottom">Align to bottom</string>
+    <string name="info_message">Informative message</string>
+    <string name="error_message">Error Message</string>
+    <string name="success_message">Success message</string>
+    <string name="info_level">Info</string>
+    <string name="error_level">Error</string>
+    <string name="success_level">Success</string>
+    <string name="warning_level">Warning</string>
+    <string name="toast_levels">Toast levels</string>
+    <string name="toast_alignment">Alignments</string>
+    <string name="icon_visibility">Icon visibility</string>
+    <string name="icon_visibility_display">Display</string>
+</resources>
