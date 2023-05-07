@@ -27,10 +27,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '1.8'
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
     buildFeatures {
         compose true
@@ -62,7 +59,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.evd-evanss'
             artifactId = 'toastbar'
-            version = '0.0.4'
+            version = '0.0.5'
 
             afterEvaluate {
                 from components.release
