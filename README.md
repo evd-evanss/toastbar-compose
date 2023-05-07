@@ -42,11 +42,10 @@ dependencies {
 
 ```Kotlin
 setContent {
-    ToastBarTheme {
+    YourTheme {
         val toastState = rememberToastState()
-        Surface(
-            modifier = Modifier.fillMaxSize(),
-            color = MaterialTheme.colorScheme.background
+        Column(
+            modifier = Modifier.fillMaxSize()
         ) {
             Button(onClick = { toastState.display() }) {
                 Text(text = "Show toast")
