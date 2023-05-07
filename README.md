@@ -1,4 +1,4 @@
-# ToastBar - Jetpack Compose
+# ToastBar - Jetpack Compose [![](https://jitpack.io/v/evd-evanss/toastbar-compose.svg)](https://jitpack.io/#evd-evanss/toastbar-compose)
 
 A custom toastbar to display short messages to the user.
 
