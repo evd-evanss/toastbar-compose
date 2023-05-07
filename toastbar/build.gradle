@@ -59,7 +59,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.evd-evanss'
             artifactId = 'toastbar'
-            version = '0.0.5'
+            version = '1.0.0'
 
             afterEvaluate {
                 from components.release

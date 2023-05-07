@@ -30,6 +30,7 @@ import com.sugarspoon.toastbar.ToastLevel
 import com.sugarspoon.toastbar.ToastLevelColors
 import com.sugarspoon.toastbar.ToastState
 import com.sugarspoon.toastbar.ToastTimer
+import com.sugarspoon.toastbar.typography.ToastBarTypography
 
 /**
  *
@@ -61,7 +62,7 @@ fun ToastBar(
     modifier: Modifier = Modifier,
     toastState: ToastState,
     message: String,
-    textStyle: TextStyle = MaterialTheme.typography.bodySmall,
+    textStyle: TextStyle = ToastBarTypography.bodySmall,
     timerDuration: Long = 2000,
     iconStatusIsVisible: Boolean = true,
     toastLevelColors: ToastLevelColors = ToastLevelColors.colors(),
